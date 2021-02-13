@@ -4,7 +4,10 @@ title: Blog
 permalink: /blog/
 ---
 
-Here are my carefully compiled views on some topics that I encountered so far. Hopefully, you will find them helpful! You can also search my posts by category <a href="{{ site.baseurl }}/categories/">here</a>.
+<!-- Here are my carefully compiled views on some topics that I encountered so far. Hopefully, you will find them helpful! You can also search my posts by category <a href="{{ site.baseurl }}/categories/">here</a>.
+ -->
+
+Where I jot down some thoughts.
 
 <ul class="listing">
 {% for post in site.posts %}
@@ -16,6 +19,9 @@ Here are my carefully compiled views on some topics that I encountered so far. H
   <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    {{ post.excerpt }}
   </li>
 {% endfor %}
 </ul>
+
+
