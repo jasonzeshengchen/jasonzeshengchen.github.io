@@ -6,7 +6,7 @@ title: DevRel/Technical Writing Portfolio
 
 In summer 2023, I worked as a technical writer intern for Developer Relations at Intuit. Here's a collection of what I've been involved with. 
 
->Note: as my internship is still ongoing, this is a living document that gets updated frequently.
+>Note: Some of my works are published on a rolling basis, so this page will get updated periodically.
 
 ### Documentations:  
 - [Numaflow documentation](https://numaflow.numaproj.io/).

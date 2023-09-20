@@ -123,7 +123,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Jason Chen's Blog # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: Just some stuff that I've found interesting
 permalink: /blog/:year/:title/
 
@@ -158,9 +158,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@jasonzeshengchen/feed
+# external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@jasonzeshengchen/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -175,6 +175,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
 
 announcements:
   enabled: false
