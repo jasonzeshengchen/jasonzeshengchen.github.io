@@ -14,16 +14,16 @@ Alternatively, you can access the class and section recordings here: [Fudan Logi
 I was in charge of going over exercises left in the main lectures. You can view the recordings here:
 
 - Day 1:
-{% include video.html path="https://www.youtube.com/watch?v=4Guosmzp6fI" class="img-fluid rounded z-depth-1" %}
+{% include video.html path="https://www.youtube.com/embed/4Guosmzp6fI" class="img-fluid rounded z-depth-1" %}
 
 - Day 2:
-{% include video.html path="https://www.youtube.com/watch?v=Ds0SRhiFZJ8" class="img-fluid rounded z-depth-1" %}
+{% include video.html path="https://www.youtube.com/embed/Ds0SRhiFZJ8" class="img-fluid rounded z-depth-1" %}
 
 - Day 3:
-{% include video.html path="https://www.youtube.com/watch?v=wNEDGlXQR3Y" class="img-fluid rounded z-depth-1" %}
+{% include video.html path="https://www.youtube.com/embed/wNEDGlXQR3Y" class="img-fluid rounded z-depth-1" %}
 
 - Day 4:
-{% include video.html path="https://www.youtube.com/watch?v=Wl87zLPygJs" class="img-fluid rounded z-depth-1" %}
+{% include video.html path="https://www.youtube.com/embed/Wl87zLPygJs" class="img-fluid rounded z-depth-1" %}
 
 - Day 5 (taught in Chinese because all attendees that day were Chinese speakers): 
-{% include video.html path="https://www.youtube.com/watch?v=-L8YuJ9oWuk" class="img-fluid rounded z-depth-1" %}
+{% include video.html path="https://www.youtube.com/embed/-L8YuJ9oWuk" class="img-fluid rounded z-depth-1" %}
