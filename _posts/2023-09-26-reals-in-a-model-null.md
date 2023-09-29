@@ -23,7 +23,7 @@ But translation preserves inner measure, and $$\bigcup_n A_n$$ is bounded. So if
 
 *Proof using $$2^\omega$$.* Given a real $$a\notin M$$, consider the flip maps induced by $$a$$. That is, for each natural number $$n$$, let $$F_n$$ flip the $$(n+k)^\text{th}$$ bit an $$x\in 2^\omega$$ iff $$a(k)=1$$. Now mirroring the proof above, let $$A_n=F_n[(2^\omega)^M]$$. 
 
-First notice that if $$F_n(x)=F_m(y)$$ for $$n\neq m$$, then $$x\neq y$$ (This is most easily proven by looking at the contrapositive and using the fact that $$a$$ has at least one $$1$$). Next, I claim that the $$A_n$$'s must be disjoint. This is becaus if $$F_n(x)=F_m(y)$$ for $$n\neq m$$, then $$a$$ is definable as the unique real that makes this true (recall that the $$F$$'s are defined from $$a$$). 
+First notice that if $$F_n(x)=F_m(y)$$ for $$n\neq m$$, then $$x\neq y$$ (This is most easily proven by looking at the contrapositive and using the fact that $$a$$ has at least one $$1$$). Next, I claim that the $$A_n$$'s must be disjoint. This is because if $$F_n(x)=F_m(y)$$ for $$n\neq m$$, then $$a$$ is definable as the unique real that makes this true (recall that the $$F$$'s are defined from $$a$$). 
     
 To see why $$a$$ is unique: suppose not, then there are $$a\neq a'$$ witnessing the corresponding $$F_n(x)=F_m(y)$$ and $$F'_n(x)=F'_m(y)$$. Now let $$k$$ be the first place that $$a$$ differs from $$a'$$ and assume without loss of generality that $$a(k)=0$$ and $$n<m$$. 
     
