@@ -21,7 +21,7 @@ This post provides a proof or two of the remark that in any extension which adds
 
 But translation preserves inner measure, and $$\bigcup_n A_n$$ is bounded. So if $$[0,1]^M$$ has inner measure anything other than zero, then $$\bigcup_n A_n$$ would have inner measure infinity, contradicting boundeness. $$\square$$
 
-*Proof using $$2^\omega$$.* Given a real $$a\notin M$$, consider the flip maps induced by $$a$$. That is, for each natural number $$n$$, let $$F_n$$ flip the $$(n+k)^\text{th}$$ bit an $$x\in 2^\omega$$ iff $$a(k)=1$$. Now mirroring the proof above, let $$A_n=F_n[(2^\omega)^M]$$. 
+*Proof using $$2^\omega$$.* Given a real $$a\notin M$$, consider the flip maps induced by $$a$$. That is, for each natural number $$n$$, let $$F_n$$ flip the $$(n+k)^\text{th}$$ bit of $$x\in 2^\omega$$ iff $$a(k)=1$$. In other words, $$F_n(x)(n+k)=1-x(n+k)$$ iff $a(k)=1$, otherwise $$F_n(x)(n+k)=x(n+k)$$. Now mirroring the proof above, let $$A_n=F_n[(2^\omega)^M]$$. 
 
 First notice that if $$F_n(x)=F_m(y)$$ for $$n\neq m$$, then $$x\neq y$$ (This is most easily proven by looking at the contrapositive and using the fact that $$a$$ has at least one $$1$$). Next, I claim that the $$A_n$$'s must be disjoint. This is because if $$F_n(x)=F_m(y)$$ for $$n\neq m$$, then $$a$$ is definable as the unique real that makes this true (recall that the $$F$$'s are defined from $$a$$). 
     
