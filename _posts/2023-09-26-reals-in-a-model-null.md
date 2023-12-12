@@ -3,7 +3,7 @@ layout: post
 title:  Being reals of a model of set theory a special property
 date: 2023-09-26
 description: Proof that reals in a model of set theory have inner measure zero if they are not all the reals
-tags: math "set theory" lolbvious
+tags: math set-theory lolbvious
 related_posts: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  Three funny proofs of the existence of incomparable Turing degrees
 date: 2023-04-17
 description: Nuking incomparable mosquitoes with forcing, measure and category, and absoluteness
-tags: math "set theory"
+tags: math set-theory
 related_posts: false
 ---
 
