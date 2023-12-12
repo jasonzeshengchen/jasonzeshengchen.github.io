@@ -2,7 +2,7 @@
 layout: distill
 title:  What's difficult about forcing?
 description: An introductory overview of forcing, from the learner's perspective
-tags: math logic expository
+tags: math set-theory expository
 date: 2022-01-20
 
 authors:
