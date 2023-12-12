@@ -3,7 +3,7 @@ layout: post
 title:  Well-ordering of the reals is not measurable
 date: 2021-08-23 11:12:00-0400
 description: An example of a nonmeasurable set that occurs in logic
-tags: math logic
+tags: math "set theory"
 related_posts: false
 ---
 Certain sets of real numbers occur frequently in Mathematical Logic but lack a nice geometric presentation to make it into Real Analysis textbooks. Some of them are quite fun examples to have in one's repository. I'd like to refer to these as "logical" subsets of the reals, for the boring reason that logic is where they're typically found. A particularly nice example is a well-ordering of the reals, considered as a subset of the plane. A quick proof using Fubini's Theorem demonstrates that it is not (Lebesgue) measurable, thus providing another proof that the axiom of choice implies there is a nonmeasurable set. The core idea of the proof is, to the best of my knowledge, due to Sierpiński.
