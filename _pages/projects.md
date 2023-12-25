@@ -1,8 +1,8 @@
 ---
 layout: page
-title: research
+title: Academic Research
 permalink: /projects/
-description: under construction...
+description: I research philosophical, historical, and mathematical questions having to do with set theory, especially descriptive set theory, structure of the real line, choiceless large cardinals, and foundations of mathematics.
 nav: false
 nav_order: 2
 display_categories: [work, fun]
