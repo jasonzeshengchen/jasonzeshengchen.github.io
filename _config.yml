@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jason Zesheng Chen's Homepage # the website title (if blank, full name will be used instead)
+title: Jason Zesheng Chen # the website title (if blank, full name will be used instead)
 first_name: Jason Zesheng
 middle_name: 
 last_name: Chen
@@ -178,6 +178,9 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  research:
+    output: true
+    permalink: /research/:path/
 
 announcements:
   enabled: false
