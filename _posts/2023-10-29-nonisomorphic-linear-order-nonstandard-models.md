@@ -3,7 +3,7 @@ layout: post
 title:  Silly proof of nonisomorphic uncountable linear orders using ordertypes of nonstandard models of arithmetic
 date: 2023-10-29
 description: All nonstandard models of arithmetic have ordertypes N+Zθ. None has ordertype N+ZR.
-tags: math set-throry
+tags: math set-theory
 related_posts: false
 ---
 

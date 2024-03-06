@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Classification Turn of Descriptive Set Theory
-description: The history of Borel equivalence relations theory
-img: assets/img/classification_turn.jpg
+title: Emergence of Invariant Descriptive Set Theory
+description: How and when did descriptive set theoreists come to study Borel equivalence relations?
+img: 
 importance: 
 category: history
 #related_publications: einstein1956investigations, einstein1950meaning

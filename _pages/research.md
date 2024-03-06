@@ -3,8 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 description: I research philosophical, historical, and mathematical questions having to do with set theory, especially descriptive set theory, set theory of the real line, choiceless large cardinals, foundations of mathematics, and mathematical practice.
-nav: true
-nav_order: 2
+nav: false
 display_categories: [philosophy, history, mathematical logic]
 horizontal: false
 ---
