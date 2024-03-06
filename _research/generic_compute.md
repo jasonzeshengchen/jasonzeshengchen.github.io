@@ -2,7 +2,7 @@
 layout: page
 title: Computability relative to generic sets
 description: If a set is computable using sufficiently random or generic information, then is it computable in the usual sense?
-img: assets/img/generic_compute.jpg
+img: 
 importance: 
 category: [mathematical logic]
 #related_publications: einstein1956investigations, einstein1950meaning

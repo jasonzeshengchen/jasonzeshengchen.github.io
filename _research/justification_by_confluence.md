@@ -2,7 +2,7 @@
 layout: page
 title: Justification by Confluence
 description: What do we mean when we say we have a Church-Turing Thesis for something?
-img: assets/img/confluence.jpg
+img: 
 importance: 
 category: philosophy
 #related_publications: einstein1956investigations, einstein1950meaning
