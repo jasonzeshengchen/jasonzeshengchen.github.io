@@ -61,4 +61,4 @@ Here I store some notes. I prepared these notes to help myself understand certai
 - 秩序与混沌：集合论的世纪斗争 [part 1](https://mp.weixin.qq.com/s/YpsiM64rhEjZDAgPdnaR-g), [part 2](https://mp.weixin.qq.com/s/G7KbpDTo5YlMvu6A5kupVA) (Order and Chaos: The Centennial Struggle of Set Theory)
 - [Magidor的超紧致基数定义，脱殊超幂](fudan_forcing_seminar_July22.pdf)(Magidor Characterization of Supercompactness, and Generic Ultrapowers)
 - [什么是描述集合论](https://www.zhihu.com/question/274457961/answer/2305826783) (What is Descriptive Set Theory?)
-- [无穷与悖论](Infinity__Paradox__and_the_Limits_of_Thoughts.pdf)（科普幻灯片）
+- [无穷与悖论：数学与语言的边界](infinity_paradox_chinese.pdf)（科普幻灯片）

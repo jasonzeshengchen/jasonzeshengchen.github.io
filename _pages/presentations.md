@@ -7,6 +7,9 @@ nav: false
 Below is a reverse chronological list of presentations I have given or will be giving at various conferences and workshops. 
 
 - Justification by Confluence. [2024 Fudan Conference on Logic and Metaphysics](http://logic.fudan.edu.cn/event2024/fclm), Fudan University (2024/04/26-28).
+- Metamathematical methods in descriptive set theory. [Fudan Logic Seminar 2024](http://logic.fudan.edu.cn/event2024/seminar), Fudan University (2024/04/26).
+- Emergence of Invariant Descriptive Set Theory. [Fudan Logic Seminar 2024](http://logic.fudan.edu.cn/event2024/seminar), Fudan University (2024/04/24)
+- Infinity and Paradox (in Chinese). Invited public lecture, Beijing Language and Culture University (2024/04/23). [Slides](infinity_paradox_chinese.pdf)
 - Justification by Confluence. The sixth Young Scholars in Science and Philosophy workshop, Institute of Philosophy, Chinese Academy of Sciences (2024/04/20-22).
 - Confluence Phenomena in Mathematics. [Notre Dame Student Logic Reading Group](https://sites.nd.edu/yuanshan-li/logic-reading-group/), Online (2023/05/01).
 - The Classification Turn of Descriptive Set Theory. [The 2nd Nancy-Irvine Workshop on Formalization in Logic, Language, and Mathematics](https://www.socsci.uci.edu/newsevents/events/2023/2023-04-28-nancy-irvine-workshop.php), UC Irvine (2023/04/28-29).
