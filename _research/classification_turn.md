@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Emergence of Invariant Descriptive Set Theory
+title: Pre-history of Invariant Descriptive Set Theory
 description: How and when did descriptive set theoreists come to study Borel equivalence relations?
 img: 
 importance: 
