@@ -2,8 +2,7 @@
 layout: portfolio
 permalink: /translations/
 title: Translations
-nav: true
-nav_order: 6
+nav: false
 ---
 
 In my research, I've often had to read original historical documents. Sometimes I like to translate the ones I find interesting into English. Sometimes I also translate English papers into Chinese. Here are some of them.
