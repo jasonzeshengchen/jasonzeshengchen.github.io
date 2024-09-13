@@ -16,9 +16,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-My name is Zesheng Chen; my friends and family call me Jason. I am a PhD candidate at the [Deparment of Logic and Philosophy of Science](https://www.lps.uci.edu/), UC Irvine. My advisor is [Toby Meadows](https://sites.google.com/site/tobymeadows/).
+This is the academic homepage of Jason Zesheng Chen. I received a PhD in 2024 from the [Department of Logic and Philosophy of Science](https://www.lps.uci.edu/), UC Irvine, under the supervision of [Toby Meadows](https://sites.google.com/site/tobymeadows/). In September 2024, I started working for [Intuit](https://www.intuit.com/) in technical product marketing and developer relations. See my [LinkedIn](https://www.linkedin.com/in/jasonzeshengchen/) for my industry work. 
 
-As a philosopher, I study how mathematicians go about their business, especially how they take something to be evidence, motivation, or justification for something else, and what that something else is. As a logician, I focus on the relationship between computation, complexity, and exorbitantly large infinities: [if an object can be easily computed/defined, must it behave nicely?](https://www.math.ucla.edu/~ynm/lectures/ws2016-lec1.pdf)
+Academically, as a philosopher, I study how mathematicians go about their business, especially how they take something to be evidence, motivation, or justification for something else, and what that something else is. As a logician, I focus on the relationship between computation, complexity, and exorbitantly large infinities: [if an object can be easily computed/defined, must it behave nicely?](https://www.math.ucla.edu/~ynm/lectures/ws2016-lec1.pdf)
 
 I also specialize in the history of set theory, especially [descriptive set theory](https://en.wikipedia.org/wiki/Descriptive_set_theory) from its [emergence](http://math.bu.edu/people/aki/2.pdf) to the [present](https://link.springer.com/chapter/10.1007/978-1-4020-5764-9_5). Curiously, this line of research has made me somewhat competent in the history of mathematics, logic, and computer science in the Soviet Union.
 
