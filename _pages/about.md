@@ -6,7 +6,7 @@ subtitle: why, hello, nice to see you here!
 
 profile:
   align: left
-  image: profile_img.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>In Beijing, hopeful and akimbo, amidst an epic trip where I gave 7 talks in 14 days</p>
