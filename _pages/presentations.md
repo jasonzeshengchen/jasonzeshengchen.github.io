@@ -2,7 +2,7 @@
 layout: portfolio
 permalink: /presentations/
 title: Presentations
-nav: true
+nav: false
 nav_order: 6
 ---
 Below is a reverse chronological list of presentations I have given or will be giving at various conferences and workshops. 
