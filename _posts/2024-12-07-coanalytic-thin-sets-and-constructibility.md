@@ -1,6 +1,6 @@
 ---
 layout: post
-title: $\Pi^1_1$ set has no perfect subset if and only if it has nonconstructible element
+title: $\Pi^1_1$ set has a perfect subset if and only if it has nonconstructible element
 date: 2024-12-07
 description: An equivalent characterization of coanalytic thin sets in terms of constructibility
 tags: math set-theory lolbvious
