@@ -32,13 +32,13 @@ Observe: $F_m(y)(n+k)=F'_m(y)(n+k)$. This is because if $n+k<m$, then the equali
 Now to arrive at a contradiction, notice that we have:
 
 
-$
+$$
     \begin{align*}
         F_n(x)(n+k) & = F_m(y)(n+k)\\
          & = F'_m(y)(n+k) \\
          & = F'_n(x)(n+k)
     \end{align*}
-$
+$$
     
 But this cannot be true, since $a$ tells $F_n$ to keep the $(n+k)^\text{th}$ bit of $x$, whereas $a'$ tells $F'_n$ to flip it. $\square$
 
