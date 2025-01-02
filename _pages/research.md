@@ -2,7 +2,9 @@
 layout: page
 title: Research
 permalink: /research/
-description: I research philosophical, historical, and mathematical questions having to do with set theory, especially descriptive set theory, set theory of the real line, choiceless large cardinals, foundations of mathematics, and mathematical practice. 
+description: My research is best characterized as practice-informed technical philosophy. This means I study first and foremost the actual practices of technical specialists, in order to discern interesting threads among these practices that underlie particular aspects of the trade. To my way of thinking, this line of work relates to its attended disciplines in pretty much the same ways that a sports/chess pundit's job relates to their respective subject matters. 
+
+Currently, I am focusing on philosophical, historical, and mathematical questions having to do with set theory, especially descriptive set theory, set theory of the real line, choiceless large cardinals, foundations of mathematics, and mathematical practice. 
 nav: false
 display_categories: [philosophy, history, mathematical logic]
 horizontal: false
