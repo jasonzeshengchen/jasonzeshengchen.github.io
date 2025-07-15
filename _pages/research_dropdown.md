@@ -5,7 +5,7 @@ nav: true
 nav_order: 2
 dropdown: true
 children: 
-    - title: projects
+    - title: overview
       permalink: /research/
     - title: divider
     - title: publications
@@ -13,7 +13,4 @@ children:
     - title: divider
     - title: presentations
       permalink: /presentations/
-    - title: divider
-    - title: translations
-      permalink: /translations/
 ---
