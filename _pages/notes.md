@@ -41,8 +41,9 @@ Here I store some notes. I prepared these notes to help myself understand certai
 
 - [Vitali是如何想到不可测集的](https://www.zhihu.com/question/497629154/answer/3276037526) (How did Vitali come up with his non-measurable set?)
 - [将实数拆分使得份数比实数多](https://www.zhihu.com/question/559474148/answer/2911486965) (A partition of the reals into more parts than the reals)
-- [Wadge博弈的单射与应用](https://www.zhihu.com/question/60555973/answer/2573890860) (Invention of Wadge games and their applications)
+- [Wadge博弈的诞生与应用](https://www.zhihu.com/question/60555973/answer/2573890860) (Invention of Wadge games and their applications)
 - [蕴涵不可测集存在的命题](https://www.zhihu.com/question/586482223/answer/3220287080) (Statements implying the existence of non-measurable sets)
+- [Exacting Cardinals对HOD猜想的影响](https://www.zhihu.com/question/4938407647/answer/41336139963) (Implications of the exacting cardinals on the HOD conjecture)
 
 #### 历史 (History)
 
@@ -54,7 +55,10 @@ Here I store some notes. I prepared these notes to help myself understand certai
 #### 哲学 (Philosophy)
 
 - [哥德尔定理对柏拉图主义的影响](https://www.zhihu.com/question/549218308/answer/2711623909) (Gödel's theorems and their impact on Platonism)
+- [如何理解数学对象的存在](https://www.zhihu.com/question/532851915/answer/2487266239) (How to understand the existence of mathematical objects)
 - [集合论的奠基功能](https://www.zhihu.com/question/363043105/answer/971089249) (Foundational roles played by set theory)
+- [为何相信ZFC是一致的](https://www.zhihu.com/people/jasonchen0325/answers/by_votes) (Why believe in the consistency of ZFC?)
+- [如何理解独立性](https://www.zhihu.com/question/645327955/answer/3405990633) (What to make of independence results)
 
 #### 教学与科普 (Teaching Materials/For General Public)
 
