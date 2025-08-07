@@ -26,6 +26,6 @@ Here I store some notes. I prepared these notes to help myself understand certai
 - [Decision tree method for filling out truth tables](LPS30_decision_tree.pdf) (teaching material for intro logic)
 
 
-### [Selected Writings in Chinese (部分中文笔记)](/chinese-notes)
+### [Selected Writings in Chinese (部分中文笔记）](/chinese-notes)
 
 
