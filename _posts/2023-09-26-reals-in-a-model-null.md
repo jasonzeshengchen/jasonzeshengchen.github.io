@@ -17,7 +17,7 @@ This post provides a proof or two of the remark that in any extension which adds
 
 > **Theorem.** Assume $M$ is a model of ZFC, possibly a proper class. If there is a real number not in $M$, then the reals in $M$ have inner measure zero.
 
-*Proof using $[0,1]$.* Letting $a$ denote a real not in $M$, consider the translates $A_n=\{r+\frac{a}{n}\mid r\in [0,1^M]\}$. The $A_n$'s are pairwise disjoint, because otherwise (say $q+\frac{a}{n}=r+\frac{a}{m}$) $a$ would have been definable in $M$ as the unique real solution to the equation $q+\frac{x}{n}=r+\frac{x}{m}$, contradicting the assumption that $a\notin M$.
+*Proof using $[0,1]$.* Letting $a$ denote a real not in $M$, consider the translates $A_n=\\{r+\frac{a}{n}\mid r\in [0,1^M]\\}$. The $A_n$'s are pairwise disjoint, because otherwise (say $q+\frac{a}{n}=r+\frac{a}{m}$) $a$ would have been definable in $M$ as the unique real solution to the equation $q+\frac{x}{n}=r+\frac{x}{m}$, contradicting the assumption that $a\notin M$.
 
 But translation preserves inner measure, and $\bigcup_n A_n$ is bounded. So if $[0,1]^M$ has inner measure anything other than zero, then $\bigcup_n A_n$ would have inner measure infinity, contradicting boundeness. $\square$
 
