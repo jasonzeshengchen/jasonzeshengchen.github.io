@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: My research is best characterized as practice-informed technical philosophy. This means I study first and foremost the actual practices of technical specialists, in order to discern interesting threads among these practices that underlie particular aspects of the trade. To my way of thinking, this line of work relates to its attended disciplines in pretty much the same ways that a sports/chess pundit's job relates to their respective subject matters.<br>Below, you'll find blurbs to some of the things I am currently thinking about.
+description: My research is best characterized as practice-informed technical philosophy. This means I study first and foremost the actual practices of technical specialists, in order to discern interesting threads across their methodologies that underlie particular aspects of the trade. To my way of thinking, this line of work relates to its attended disciplines in pretty much the same ways that a sports/chess pundit's job relates to their respective subject matters.<br>Below, you'll find blurbs to some of the things I am currently thinking about.
 nav: false
 display_categories: [philosophy, history, mathematical logic]
 horizontal: false
