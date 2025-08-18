@@ -31,14 +31,14 @@ $I$ wins if there is some turn $n\in\omega$ where $a(n)\in T(z)$ but $b(n)\notin
 Simply put, each player tries to outlast the other by staying on their respective tree for as long as possible. If $z\in A$, when $I$ has a winning strategy by just following an infinite branch in $T(z)$ that witnesses this; simiarly for $II$ if $z\in B$. Another crucial observation is that the outcome of the game is decided after finitely many moves, making the game an open game, which means one of the players must have a winning strategy by the Gale-Stewart theorem.
 
 The preceiding discussion suggests that we consider
-$$
-A':=\{ z\in{}^\omega\omega\mid I \text{ has a winning strategy in } G^z\}
-$$
+
+$A':=\\{ z\in{}^\omega\omega\mid I \text{ has a winning strategy in } G^z\\}$
+
 and
-$$
-B':=\{ z\in{}^\omega\omega\mid II \text{ has a winning strategy in } G^z\}
-$$
-Then these two are the sets that we want. QED (Quick \& Easy Determinacy?)
+
+$B':=\\{ z\in{}^\omega\omega\mid II \text{ has a winning strategy in } G^z\\}$
+
+Then these two are the sets that we want. QED (Quick & Easy Determinacy?)
 
 
 The above proof stays pretty close to Blackwell's original, except I've assumed that $A$ and $B$ are disjoint (which is how the separation theorem is usually stated anyways), in order to get rid of the possibility of a draw. The other bit of change is to talk about analytic sets in terms of trees rather than continuous functions. This reads much more naturally, at least for someone like me who was inducted into the business via infinite branch talk.
