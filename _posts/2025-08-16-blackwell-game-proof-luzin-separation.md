@@ -32,11 +32,11 @@ Simply put, each player tries to outlast the other by staying on their respectiv
 
 The preceiding discussion suggests that we consider
 $$
-A':=\\{ z\in{}^\omega\omega\mid I \text{ has a winning strategy in } G^z\\}
+A':=\{ z\in{}^\omega\omega\mid I \text{ has a winning strategy in } G^z\}
 $$
 and
 $$
-B':=\\{ z\in{}^\omega\omega\mid II \text{ has a winning strategy in } G^z\\}
+B':=\{ z\in{}^\omega\omega\mid II \text{ has a winning strategy in } G^z\}
 $$
 Then these two are the sets that we want. QED (Quick \& Easy Determinacy?)
 
