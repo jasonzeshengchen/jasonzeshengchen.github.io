@@ -26,7 +26,7 @@ II: & ~ &  b(1) & ~ & b(2) & ~ & b(3)& ...\\
 \end{array}
 $$
 
-$I$ wins if there is some turn $n\in\omega$ where $a(n)\in T(z)$ but $b(n)\notin U(z)$. $II$ wins if there is some turn $n\in\omega$ where $b(n)\in U(z)$ but $a(n)\notin T(z)$.
+$I$ wins if there is some turn $n\in\omega$ where $\langle a(1),...,a(n)\rangle\in T(z)$ but $\langle b(1),...,b(n)\rangle\notin U(z)$. $II$ wins if there is some turn $n\in\omega$ where $\langle b(1),...,b(n)\rangle\in U(z)$ but $\langle a(1),...,a(n)\rangle\notin T(z)$.
 
 Simply put, each player tries to outlast the other by staying on their respective tree for as long as possible. If $z\in A$, when $I$ has a winning strategy by just following an infinite branch in $T(z)$ that witnesses this; simiarly for $II$ if $z\in B$. Another crucial observation is that the outcome of the game is decided after finitely many moves, making the game an open game, which means one of the players must have a winning strategy by the Gale-Stewart theorem.
 
