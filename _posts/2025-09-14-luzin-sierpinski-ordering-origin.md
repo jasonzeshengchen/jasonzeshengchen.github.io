@@ -17,7 +17,7 @@ Almost everywhere you look, sources will parenthetically disclaim that this is a
 Luzin-Sierpinski's 1923 is concerned with defining an analytic set and proving that it's not Borel. In modern jargon (assuming the rationals are enumerated as $(q_n)_{n\in\omega}$), the set in question is
 
 $$
-A:= \\{f\in\omega^\omega \mid \exists n_0<n_1<n_2<... \forall i (q_{f(n_{i+1})} < q_{f(n_i)})\\}
+A:= \{f\in\omega^\omega \mid \exists n_0<n_1<n_2<... \forall i (q_{f(n_{i+1})} < q_{f(n_i)})\}
 $$
 
 (It may be instructive to compare this with [Luzin's later simpler example of an analytic non-Borel set](/notes/Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf).)
