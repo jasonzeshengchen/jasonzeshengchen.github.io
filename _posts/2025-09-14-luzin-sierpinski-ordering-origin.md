@@ -12,7 +12,7 @@ The Kleene-Brouwer ordering refers to the ordering on $\omega^{<\omega}$ (or fin
 
 One can visually think of this as [shearing](https://textbooks.math.gatech.edu/ila/matrix-transformations.html#matrix-trans-shear) the picture of the whole tree $\omega^{<\omega}$ in the $x$-axis so extremely that it becomes a single line. This is indeed the common application of the KB ordering, turning partial orders into linear orders.
 
-Almost everywhere you look, sources will parenthetically disclaim that this is a.k.a the Luzin-Sierpinski order. I've long wondered how that is. Turns out this ordering appeared in Luzin-Sierpinski's 1923 *Sur un ensemble non measurable B*, yet another classic in the early days of DST.
+Almost everywhere you look, sources will parenthetically divulge that this is a.k.a the Luzin-Sierpinski order. I've long wondered how that is. Turns out this ordering appeared in Luzin-Sierpinski's 1923 *Sur un ensemble non measurable B*, yet another classic in the early days of DST.
 
 Luzin-Sierpinski's 1923 is concerned with defining an analytic set and proving that it's not Borel. In modern jargon (assuming the rationals are enumerated as $(q_n)_{n\in\omega}$), the set in question is
 
