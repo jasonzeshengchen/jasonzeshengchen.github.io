@@ -14,7 +14,7 @@ One can visually think of this as [shearing](https://textbooks.math.gatech.edu/i
 
 Almost everywhere you look, sources will parenthetically divulge that this is a.k.a the Luzin-Sierpinski order. I've long wondered how that is. Turns out this ordering appeared in Luzin-Sierpinski's 1923 *Sur un ensemble non measurable B*, yet another classic in the early days of DST.
 
-Luzin-Sierpinski's 1923 is concerned with defining an analytic set and proving that it's not Borel. In modern jargon (assuming the rationals are enumerated as $(q_n)_{n\in\omega}$), the set in question is
+Luzin-Sierpinski's 1923 is concerned with defining an [:analytic set](https://en.wikipedia.org/wiki/Analytic_set) and proving that it's not Borel. In modern jargon (assuming the rationals are enumerated as $(q_n)_{n\in\omega}$), the set in question is
 
 $$
 A:= \{f\in\omega^\omega \mid \exists n_0<n_1<n_2<... \forall i (q_{f(n_{i+1})} < q_{f(n_i)})\}
@@ -28,7 +28,7 @@ Obviously this set is analytic (I've written the $\Sigma^1_1$ definition above).
 
 The Luzin-Sierpinski order appears in section 7, when they proceed to prove the equivalence of the two definitions of analytic sets. See display (37) in the screenshot below.
 
-![image1](/assets/img/CleanShot%202025-09-15%20at%2000.12.15@2x.png)
+![image1](/assets/img/CleanShot%202025-09-15%20at%2000.12.15@2x.png){: style="max-width:70%; height:auto; display:block; margin:0 auto;" }
 
 The point is that the definition in this paper used systems of closed sets indexed by rationals, whereas Suslin's definition used systems of closed sets indexed by finite sequences of naturals. The crux of the proof is to devise a way to order the finite sequences of naturals in the ordertype of the rationals. This is where the Luzin-Sierpinski order comes in:
 
