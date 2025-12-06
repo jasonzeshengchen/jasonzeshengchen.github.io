@@ -24,7 +24,7 @@ $$
 
 In other words, we view a function $f:\omega\to\omega$ as an enumeration of the rationals. The set $A$ is the set of those functions that end up enumerating an infinite edescending chain of rationals (in its usual ordering).
 
-Obviously this set is analytic (I've written the $\Sigma^1_1$ definition above). Now this POV wasn't available to Luzin-Sierpinski, who gave a slightly different definition of analytic set in their 1923 paper, showed that the set $A$ does fit the definition, and then proved the equivalence between their definition and Suslin's (in terms of the [Suslin operation](https://en.wikipedia.org/wiki/Suslin_operation) $\mathcal{A}$).
+Obviously this set is analytic (I've written the $\Sigma^1_1$ definition above). Now this POV wasn't available to Luzin-Sierpinski, who gave a slightly different definition of analytic set in their 1923 paper, showed that the set $A$ does fit the definition, and then proved the equivalence between their definition and Suslin's (in terms of the [:Suslin operation](https://en.wikipedia.org/wiki/Suslin_operation) $\mathcal{A}$).
 
 The Luzin-Sierpinski order appears in section 7, when they proceed to prove the equivalence of the two definitions of analytic sets. See display (37) in the screenshot below.
 
