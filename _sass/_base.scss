@@ -780,6 +780,24 @@ html.transition *:after {
       }
     }
   }
+
+  /* Center figures inside posts */
+.post-figure-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 100%;
+  }
+
+/* Example: apply to images inside figure if needed */
+.post-figure-centered img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  }
+
+
 }
 
 progress {
