@@ -13,7 +13,7 @@ In 1917, Luzin announced that every analytic set of real numbers is Lebesgue mea
 (see, e.g., *Judah, Haim. "Absoluteness for projective sets." Logic colloquium. Vol. 90. 1990.*):
 > **Theorem**. Every $\mathbf{\Sigma}^1_1$ set of reals is Lebesgue measurable.
 
-*Proof.* Suppose $A:=\\{x\in\mathbb{R}\mid \varphi(x,a)\\}$, where $\varphi$ is $\Sigma^1_1$ and $a\in \mathbb{R}$. Now consider the random forcing poset $\mathcal{B}/\mathrm{Null}$. Let $X$ be a $G_\delta$ set that forces $\varphi(\dot r, \check a)$ (or rather, its equivalence class in the random forcing algebra does), where $\dot{r}$ is a canonical name of the random real added. 
+*Proof.* Suppose $A:=\\{x\in\mathbb{R}\mid \varphi(x,a)\\}$, where $\varphi$ is $\Sigma_1^1$ and $a\in \mathbb{R}$. Now consider the random forcing poset $\mathcal{B}/\mathrm{Null}$. Let $X$ be a $G_\delta$ set that forces $\varphi(\dot r, \check a)$ (or rather, its equivalence class in the random forcing algebra does), where $\dot{r}$ is a canonical name of the random real added. 
     
 Claim: $\mu(X\triangle A)=0$. (This is just the equivalent formulation of the measurability of $A$.). 
 
