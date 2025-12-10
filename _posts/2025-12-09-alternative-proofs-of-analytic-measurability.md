@@ -13,7 +13,7 @@ In 1917, Luzin announced that every analytic set of real numbers is Lebesgue mea
 (see, e.g., *Judah, Haim. "Absoluteness for projective sets." Logic colloquium. Vol. 90. 1990.*):
 > **Theorem**. Every $\mathbf{\Sigma}^1_1$ set of reals is Lebesgue measurable.
 
-*Proof.* Suppose $A:=\{x\in\mathbb{R}\mid \varphi(x,a)\}$, where $\varphi$ is $\Sigma^1_1$ and $a\in \mathbb{R}$. Now consider the random forcing poset $\mathcal{B}/\mathrm{Null}$. Let $X$ be a $G_\delta$ set that forces $\varphi(\dot r, \check a)$ (or rather, its equivalence class in the random forcing algebra does), where $\dot{r}$ is a canonical name of the random real added. 
+*Proof.* Suppose $A:=\\{x\in\mathbb{R}\mid \varphi(x,a)\\}$, where $\varphi$ is $\Sigma^1_1$ and $a\in \mathbb{R}$. Now consider the random forcing poset $\mathcal{B}/\mathrm{Null}$. Let $X$ be a $G_\delta$ set that forces $\varphi(\dot r, \check a)$ (or rather, its equivalence class in the random forcing algebra does), where $\dot{r}$ is a canonical name of the random real added. 
     
 Claim: $\mu(X\triangle A)=0$. (This is just the equivalent formulation of the measurability of $A$.). 
 
@@ -30,7 +30,7 @@ It follows that there is a real $r\in B$ random over $N$. Notice that $[B]$ is a
 
 *Proof.* We prove the lightface version of this claim. The general case generalizes straightforwardly. 
 
-So let $A$ be a $\Pi^1_1$ set of reals. By standard facts in descriptive set theory (e.g., [see my notes]((https://jasonzeshengchen.github.io/notes/Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf))), there is a recursive tree $T$ on $\omega\times\omega$ such that $x\in A$ iff $T_x$ is well-founded, where $T_x:=\{\sigma\in\omega^{<\omega}\mid (x\upharpoonright |\sigma|,\sigma)\in T\}$. Let $r:\mathbb{R}\to \omega_1\cup\\{\infty\\}$ map $x$ to the rank of $T_x$ if $x\in A$ and to $\infty$ otherwise.
+So let $A$ be a $\Pi^1_1$ set of reals. By standard facts in descriptive set theory (e.g., [see my notes]((https://jasonzeshengchen.github.io/notes/Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf))), there is a recursive tree $T$ on $\omega\times\omega$ such that $x\in A$ iff $T_x$ is well-founded, where $T_x:=\{\sigma\in\omega^{<\omega}\mid (x\upharpoonright \|\sigma\|,\sigma)\in T\}$. Let $r:\mathbb{R}\to \omega_1\cup\\{\infty\\}$ map $x$ to the rank of $T_x$ if $x\in A$ and to $\infty$ otherwise.
 
 Now, the rank of $T_x$ is bounded by $\omega_1^{CK}(x)$. This means that for all $x$, $x\in A$ iff $r(x)<\omega_1^{CK}(x)$. But a classic result by Sacks shows that the set $\\{x\mid \omega_1^{CK}(x)=\omega_1^{CK}\\}$ has measure one, which in turn implies that for measure one many reals, we have $x\in A$ iff $r(x)=\omega_1^{CK}$.
 
