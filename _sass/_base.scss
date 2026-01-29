@@ -283,7 +283,8 @@ blockquote {
   }
 }
 
-#light-toggle {
+#light-toggle,
+#search-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -293,6 +294,7 @@ blockquote {
     color: var(--global-hover-color);
   }
 }
+
 
 // Social (bottom)
 
@@ -1039,4 +1041,17 @@ nav[data-toggle="toc"] {
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
+}
+
+// Ninja Keys
+// for more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables
+ninja-keys {
+  --ninja-accent-color: var(--global-theme-color);
+  --ninja-icon-size: 0px;
+  --ninja-modal-background: var(--global-bg-color);
+  --ninja-z-index: 1031;
+}
+
+ninja-keys::part(ninja-input-wrapper) {
+  background: var(--global-bg-color);
 }
