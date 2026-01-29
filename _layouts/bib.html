@@ -148,11 +148,21 @@
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {%- endif %}
+          {%- if entry.journallink %}
+            <a href="{{ entry.journallink }}" class="btn btn-sm z-depth-0" role="button">Journal</a>
+          {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
             <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            {%- endif %}
+          {%- endif %}
+          {%- if entry.preprint %}
+            {% if entry.preprint contains '://' -%}
+            <a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
+            {%- else -%}
+            <a href="{{ entry.preprint | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
@@ -162,6 +172,11 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
+          {% if entry.video and site.enable_video_embedding %}
+            <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+          {% elsif entry.video %}
+           <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+          {% endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
@@ -230,5 +245,12 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+
+          {% if entry.video and site.enable_video_embedding %}
+          <!-- Hidden video block -->
+          <div class="abstract hidden">
+            <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+          </div>
+          {% endif %}
         </div>
       </div>
