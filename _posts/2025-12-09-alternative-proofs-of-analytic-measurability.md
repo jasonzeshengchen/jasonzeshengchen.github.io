@@ -5,6 +5,7 @@ date: 2025-12-09
 description: Proving analytic sets are measurable using recursion theory and forcing
 tags: math set-theory forcing measure-and-category recursion-theory
 related_posts: false
+giscus_comments: true
 ---
 In 1917, Luzin announced that every analytic set of real numbers is Lebesgue measurable, a result that remains a cornerstone of descriptive set theory and measure theory. Typical expositions characterize analytic sets in terms of [:Suslin's operation](https://en.wikipedia.org/wiki/Suslin_operation) and prove that the operation preserves measurability. Being good logicians, however, one likes to think of the analytic sets as defined by $\Sigma^1_1$ formulas (with parameter) in the language of second-order arithmetic, and coanalytic set as those defined by $\Pi^1_1$ formulas. This facilitates the strucutral theory of these sets via ill-founded and well-founded trees, a perspective that we'll conveniently exploit in the following two alternative proofs of analytic measurability.
 
