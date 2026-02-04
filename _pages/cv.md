@@ -2,11 +2,11 @@
 layout: cv
 permalink: /cv/
 title: CV
-nav: false
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav: true
+nav_order: 3
+cv_pdf: Jason_Zesheng_Chen_CV_2026_Feb.pdf # you can also use external links here
+# cv_format: rendercv # options: rendercv, jsonresume
+description: Scroll down to see more, or download my CV as a PDF.
+# toc:
+#   sidebar: left
 ---

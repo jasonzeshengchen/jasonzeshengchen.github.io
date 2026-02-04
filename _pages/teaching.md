@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 description: A collection of my teaching activities.
 nav: true
-nav_order: 3
+nav_order: 4
 horizontal: false
 ---
 
