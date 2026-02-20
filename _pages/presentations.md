@@ -6,6 +6,8 @@ nav: false
 nav_order: 6
 ---
 Below is a reverse chronological list of presentations I have given or will be giving at various conferences and workshops. 
+- The emergence of a foundational role. [ASL Plenary Session at the 2026 Central APA](https://www.apaonline.org/mpage/2026Central#v-pills-program), Chicago (2026/02/19). [Slides](Chen_2026_ASL_Central_APA.pdf)
+- A belated foundational role of set theory. [2025 Annual Conference of Philosophy of Mathematics in China](https://logic.fudan.edu.cn/event2025/acpomc). Lanzhou University (2025/07/27)
 - Practical uses of the Church-Turing Thesis, revisited. [ASL Special Session at the 2025 Central APA](https://www.apaonline.org/BlankCustom.asp?page=2025central), Virtual (2025/02/28). [Slides](practical_CTT_APA_Central_2025.pdf)
 - Justification by Confluence. [2024 Fudan Conference on Logic and Metaphysics](http://logic.fudan.edu.cn/event2024/fclm), Fudan University (2024/04/26-28). [Slides](justification_by_confluence_pku_2024.pdf)
 - Metamathematical methods in descriptive set theory. [Fudan Logic Seminar 2024](http://logic.fudan.edu.cn/event2024/seminar), Fudan University (2024/04/26). [Slides](metamath_in_DST_Fudan_2024.pdf)
