@@ -9,8 +9,8 @@ profile:
   image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>*Looks up in the ditch</p><br>
-    Photo credit: <a href="https://helenshiyang.github.io/">Helen Shiyang Lu</a> at Lower Antelope Canyon, Arizona, USA.
+    <p>Cherry blossoms in Vancouver</p><br>
+    Photo credit: <a href="https://helenshiyang.github.io/">Helen Shiyang Lu</a>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
