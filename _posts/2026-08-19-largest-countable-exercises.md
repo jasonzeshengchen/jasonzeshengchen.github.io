@@ -35,10 +35,7 @@ and choose $y_* \in C \smallsetminus A$ with $\rho(y_*) = \gamma$.
 
 Then:
 
-1. Since every $x \in I_{y_*}$ has $\rho(x) < \gamma$, minimality of $\gamma$ gives $x \in A$. Hence
-    \[
-    y_* \in B_A \setminus A.
-    \]
+1. Since every $x \in I_{y_*}$ has $\rho(x) < \gamma$, minimality of $\gamma$ gives $x \in A$. Hence $y_* \in B_A \setminus A.$ 
 2. If $y \in B_A$ and $\rho(y) > \gamma$, then $y_* \in I_{y}$, contradicting $I_{y} \subseteq A$. Therefore every $y \in B_A$ has $\rho(y) \le \gamma$.
 3. If $y \in B_A$ and $\rho(y) < \gamma$, then the minimality of $\gamma$ gives $y \in A$.
 
