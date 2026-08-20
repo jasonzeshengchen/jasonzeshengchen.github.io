@@ -31,19 +31,19 @@ Now consider $B_A := \\{y\in C\mid I_y\subseteq A\\}$. Let
 $$
 \gamma = \min\{\rho(y) : y \in C \setminus A\},
 $$
-and choose $y_* \in C \smallsetminus A$ with $\rho(y_*) = \gamma$.
+and choose $y_\ast \in C \smallsetminus A$ with $\rho(y_\ast) = \gamma$.
 
 Then:
 
-1. Since every $x \in I_{y_*}$ has $\rho(x) < \gamma$, minimality of $\gamma$ gives $x \in A$. Hence $y_* \in B_A \setminus A.$ 
-2. If $y \in B_A$ and $\rho(y) > \gamma$, then $y_* \in I_{y}$, contradicting $I_{y} \subseteq A$. Therefore every $y \in B_A$ has $\rho(y) \le \gamma$.
+1. Since every $x \in I_{y_\ast}$ has $\rho(x) < \gamma$, minimality of $\gamma$ gives $x \in A$. Hence $y_\ast \in B_A \setminus A.$ 
+2. If $y \in B_A$ and $\rho(y) > \gamma$, then $y_\ast \in I_{y}$, contradicting $I_{y} \subseteq A$. Therefore every $y \in B_A$ has $\rho(y) \le \gamma$.
 3. If $y \in B_A$ and $\rho(y) < \gamma$, then the minimality of $\gamma$ gives $y \in A$.
 
 Consequently,
 $$
-B_A \subseteq A \cup E_{y_*}.
+B_A \subseteq A \cup E_{y_\ast}.
 $$
-Both $A$ and $E_{y_*}$ are countable, so $B_A$ is countable and nevertheless contains a real outside $A$.
+Both $A$ and $E_{y_\ast}$ are countable, so $B_A$ is countable and nevertheless contains a real outside $A$.
 
 But $B_A$ is $\Pi^1_1$: $y\in B_A \Leftrightarrow C(y) \wedge (\forall x)(x\in I_y\rightarrow A(x))$. And so $A\cup B_A$ is a countable $\Pi^1_1$ set of reals that strictly contains $A$. Hence $A$ cannot be the largest.
 
@@ -144,7 +144,7 @@ $$
 A^+=A\cup B_A
 $$
 
-is a countable $\Sigma^1_2$ set, and since $y_*\in B_A\setminus A$,
+is a countable $\Sigma^1_2$ set, and since $y_\ast\in B_A\setminus A$,
 
 $$
 A\subsetneq A^+.
