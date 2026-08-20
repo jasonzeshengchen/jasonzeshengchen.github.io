@@ -25,9 +25,9 @@ So that's roughly the idea. Find a kind of definable cover for your countable se
 $$C:=\{x\in 2^\omega \mid x\in L_{\omega_1^x}\}.$$
 Details about this set can be found in the textbook. The point is that if $A$ is $\Pi^1_1$ and countable then it is a subset of $C$. But $C$ is uncountable, so there is some $x\in C\smallsetminus A$. So now we need to find a way to carve something out of $C$ that we will add to $A$ to get a strictly larger $\Pi^1_1$ set.
 
-To do this we'll use a $\Pi^1_1$ [norm](:x-NormDef) $\rho$ on $C$. Note that for each $y\in C$ the sets $I_y:=\\{x\in C\mid \rho(x)<\rho(y)\\}$ and $E_y:=\\{x\in C\mid \rho(x)=\rho(y)\\}$ are both $\Delta^1_1(y)$ (this is standard and can be easily seen by a definition chase). So they are Borel subsets of $C$, and hence countable. 
+To do this we'll use a $\Pi^1_1$ [norm](#x-NormDef) $\rho$ on $C$. Note that for each $y\in C$ the sets $I_y:=\\{x\in C\mid \rho(x)<\rho(y)\\}$ and $E_y:=\\{x\in C\mid \rho(x)=\rho(y)\\}$ are both $\Delta^1_1(y)$ (this is standard and can be easily seen by a definition chase). So they are Borel subsets of $C$, and hence countable.
 
-Now for our countable $\Pi^1_1$ set $A$, consider $B_A := \\{y\in C\mid I_y\subseteq A\\}$. Let 
+Now for our countable $\Pi^1_1$ set $A$, consider $B_A := \\{y\in C\mid I_y\subseteq A\\}$. Let
 $$
 \gamma = \min\{\rho(y) : y \in C \setminus A\},
 $$
@@ -156,10 +156,26 @@ $$
 Thus every countable $\Sigma^1_2$ set has a proper countable $\Sigma^1_2$ extension. Hence there is no largest countable $\Sigma^1_2$ set of reals.
 
 
-### :x EPST 
+### :x EPST
 
 which says if a $\Sigma^1_1$ set doesn't have a perfect subset, then there is some computable ordinal $\alpha$ such that the $\alpha$-th Turing jump computes every element of it. See e.g., [Notes on Effective Descriptive Set Theory](https://math.berkeley.edu/~marks/notes/edst_notes3)
 
 ### :x NormDef
 
-$\Pi^1_1$ sets have $\Pi^1_1$ norms with height $\omega_1$. That is, there is a surjective function $$\rho: C \longrightarrow \omega_1$$and relations$$P(x,y) \in \Pi^1_1, \quad Q(x,y) \in \Sigma^1_1$$such that, whenever $y \in C$,$$x \in C \land \rho(x) \le \rho(y) \iff P(x,y) \iff Q(x,y).$$
+$\Pi^1_1$ sets have $\Pi^1_1$ norms with height $\omega_1$. That is, there is a surjective function
+
+$$
+\rho : C \longrightarrow \omega_1
+$$
+
+and relations
+
+$$
+P(x,y) \in \Pi^1_1, \quad Q(x,y) \in \Sigma^1_1
+$$
+
+such that, whenever $y \in C$,
+
+$$
+x \in C \land \rho(x) \le \rho(y) \iff P(x,y) \iff Q(x,y).
+$$
