@@ -3,7 +3,9 @@
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        // Kramdown emits \(...\) for Markdown math. Keep $...$ for formulas
+        // inside legacy raw-HTML blocks, which Kramdown deliberately skips.
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
         tags: 'ams'
       }

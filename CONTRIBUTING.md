@@ -20,6 +20,18 @@ If it is just a question, please ask it in the [Discussions](https://github.com/
 When submitting an issue, please make sure to use the appropriate template.
 
 
+## Writing math
+
+Use conventional TeX delimiters in Markdown content:
+
+- Write inline math with single dollar signs: `$x_\alpha \in \{0,1\}$`.
+- Put display-math `$$` delimiters on separate lines.
+- Use normal TeX escaping inside math, including one backslash for literal braces: `\{` and `\}`.
+- Escape a literal prose dollar sign as `\$` when it could be mistaken for math.
+
+Run `ruby test/math_gfm_test.rb` and `ruby bin/check_math` before publishing. The custom `MathGFM` parser protects inline TeX from Markdown emphasis and backslash processing before MathJax typesets it.
+
+
 ## License
 By contributing to al-folio, you agree that your contributions will be licensed
 under the LICENSE file in the root directory of the source tree.

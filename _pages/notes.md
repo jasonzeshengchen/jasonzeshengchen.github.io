@@ -10,10 +10,10 @@ Here I store some notes. I prepared these notes to help myself understand certai
 
 ### Descriptive Set Theory
 - [Perfect set theorems for closed and analytic sets](April_13_2023_Perfect_set_theorems_LPS206.pdf)
-- [Normal forms for $$\Sigma^1_1$$, Luzin's arithmetic example, and prewellorderings](Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf)
+- [Normal forms for $\Sigma^1_1$, Luzin's arithmetic example, and prewellorderings](Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf)
 - [There is no Borel 2-coloring for the irrational rotation graph](no_borel_2_coloring.pdf)
-- [Mouse capturing phenomena at $$\Delta^1_1$$ and $$\Delta^1_2$$](mouse_set_capturing.pdf)
-- [The largest $$\Pi^1_1$$ thin set as a sharp](largest_thin_set_as_a_sharp.pdf)
+- [Mouse capturing phenomena at $\Delta^1_1$ and $\Delta^1_2$](mouse_set_capturing.pdf)
+- [The largest $\Pi^1_1$ thin set as a sharp](largest_thin_set_as_a_sharp.pdf)
 
 
 ### Set Theory
@@ -27,5 +27,4 @@ Here I store some notes. I prepared these notes to help myself understand certai
 
 
 ### [Selected Writings in Chinese (部分中文笔记）](/chinese-notes)
-
 

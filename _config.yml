@@ -201,7 +201,7 @@ latest_posts:
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
+  input: MathGFM
   syntax_highlighter_opts:
     css_class: 'highlight'
     span:

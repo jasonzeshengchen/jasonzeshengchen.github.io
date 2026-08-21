@@ -65,10 +65,10 @@ _styles: >
 ## Equations
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
+Surround inline math with single dollar signs, like `$E = mc^2$`.
+Inside a paragraph it produces an inline expression, just like $E = mc^2$.
 
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
+To use display mode, surround your expression with `$$` and place the delimiters on separate lines.
 Here is an example:
 
 $$
@@ -163,7 +163,7 @@ fig.write_html('assets/plotly/demo.html')
 Details boxes are collapsible boxes which hide additional information from the user. They can be added with the `details` liquid tag:
 
 {% details Click here to know more %}
-Additional details, where math $$ 2x - 1 $$ and `code` is rendered correctly.
+Additional details, where math $2x - 1$ and `code` is rendered correctly.
 {% enddetails %}
 
 ***
