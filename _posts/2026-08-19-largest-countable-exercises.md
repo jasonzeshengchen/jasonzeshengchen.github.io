@@ -15,22 +15,28 @@ The following exercises are from *Recursion Theory* by Chong & Yu.
 
 In case any future student is desparately googling for a solution, I'll write down my take here.
 
-Let's begin with a warm-up exercise. We show that there is no largest countable $\Sigma^1_1$ set of reals: if $A$ is a countable $\Sigma^1_1$ set of reals, then by the [:effective perfect set theorem](#x-EPST), it contains only hyperarithmetic reals. But it cannot be all of them since the set of hyperarithmetic reals is properly $\Pi^1_1$. So there is always a hyperarithmetic real $x$ outside of $A$. But then $A\cup\\{x\\}$ is a countable $\Sigma^1_1$ set of reals that strictly contains $A$, so $A$ cannot be the largest.
+Let's begin with a warm-up exercise. We show that there is no largest countable $\Sigma^1_1$ set of reals: if $A$ is a countable $\Sigma^1_1$ set of reals, then by the [:effective perfect set theorem](#x-EPST), it contains only hyperarithmetic reals. But it cannot be all of them since the set of hyperarithmetic reals is properly $\Pi^1_1$. So there is always a hyperarithmetic real $x$ outside of $A$. But then $A\cup\{x\}$ is a countable $\Sigma^1_1$ set of reals that strictly contains $A$, so $A$ cannot be the largest.
 
 So that's roughly the idea. Find a kind of definable cover for your countable set that's nevertheless not exhausted by it, and then something new from the cover to get a strictly larger set. The same idea works for the two exercises above, but the details are a bit more involved.
 
 **Exercise 4.3.1**: Assume $\omega_1^L=\omega_1$. Show that there is no largest countable $\Pi^1_1$ set of reals.
 
 *Proof.* We use as our "cover" the largest $\Pi^1_1$ thin set
-$$C:=\{x\in 2^\omega \mid x\in L_{\omega_1^x}\}.$$
+
+$$
+C:=\{x\in 2^\omega \mid x\in L_{\omega_1^x}\}.
+$$
+
 Details about this set can be found in the textbook. The point is that if $A$ is $\Pi^1_1$ and countable then it is a subset of $C$. But $C$ is uncountable, so there is some $x\in C\smallsetminus A$. So now we need to find a way to carve something out of $C$ that we will add to $A$ to get a strictly larger $\Pi^1_1$ set.
 
-To do this we'll use a $\Pi^1_1$ [:norm](#x-NormDef) $\rho$ on $C$. Note that for each $y\in C$ the sets $I_y:=\\{x\in C\mid \rho(x)<\rho(y)\\}$ and $E_y:=\\{x\in C\mid \rho(x)=\rho(y)\\}$ are both $\Delta^1_1(y)$ (this is standard and can be easily seen by a definition chase). So they are Borel subsets of $C$, and hence countable.
+To do this we'll use a $\Pi^1_1$ [:norm](#x-NormDef) $\rho$ on $C$. Note that for each $y\in C$ the sets $I_y:=\{x\in C\mid \rho(x)<\rho(y)\}$ and $E_y:=\{x\in C\mid \rho(x)=\rho(y)\}$ are both $\Delta^1_1(y)$ (this is standard and can be easily seen by a definition chase). So they are Borel subsets of $C$, and hence countable.
 
-Now consider $B_A := \\{y\in C\mid I_y\subseteq A\\}$. Let
+Now consider $B_A := \{y\in C\mid I_y\subseteq A\}$. Let
+
 $$
 \gamma = \min\{\rho(y) : y \in C \setminus A\},
 $$
+
 and choose $y_\ast \in C \smallsetminus A$ with $\rho(y_\ast) = \gamma$.
 
 Then:
@@ -40,9 +46,11 @@ Then:
 3. If $y \in B_A$ and $\rho(y) < \gamma$, then the minimality of $\gamma$ gives $y \in A$.
 
 Consequently,
+
 $$
 B_A \subseteq A \cup E_{y_\ast}.
 $$
+
 Both $A$ and $E_{y_\ast}$ are countable, so $B_A$ is countable and nevertheless contains a real outside $A$.
 
 But $B_A$ is $\Pi^1_1$: $y\in B_A \Leftrightarrow C(y) \wedge (\forall x)(x\in I_y\rightarrow A(x))$. And so $A\cup B_A$ is a countable $\Pi^1_1$ set of reals that strictly contains $A$. Hence $A$ cannot be the largest.
@@ -144,7 +152,7 @@ $$
 A^+=A\cup B_A
 $$
 
-is a countable {::nomarkdown}\(\Sigma^1_2\){:/nomarkdown} set, and since {::nomarkdown}\(y_\ast\in B_A\setminus A\){:/nomarkdown},
+is a countable $\Sigma^1_2$ set, and since $y_\ast\in B_A\setminus A$,
 
 $$
 A\subsetneq A^+.

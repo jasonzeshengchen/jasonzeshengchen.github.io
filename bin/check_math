@@ -1,0 +1,101 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "kramdown"
+require_relative "../_plugins/math_gfm"
+
+CONTENT_GLOBS = %w[
+  _posts/**/*.{md,markdown}
+  _pages/**/*.{md,markdown}
+  _research/**/*.{md,markdown}
+].freeze
+
+def markdown_body(source)
+  front_matter = source.match(/\A---\r?\n.*?\r?\n---\r?\n/m)
+  return [source, 0] unless front_matter
+
+  [source[front_matter.end(0)..] || "", front_matter[0].count("\n")]
+end
+
+def each_element(element, inside_raw_html = false, &block)
+  inside_raw_html ||= element.type == :html_element
+  yield element, inside_raw_html
+  element.children.each { |child| each_element(child, inside_raw_html, &block) }
+end
+
+errors = []
+paths = CONTENT_GLOBS.flat_map { |pattern| Dir.glob(pattern) }.uniq.sort
+
+paths.each do |path|
+  source = File.read(path)
+  body, line_offset = markdown_body(source)
+  body_lines = body.lines
+
+  in_fence = nil
+  display_open_line = nil
+  body_lines.each_with_index do |line, body_index|
+    body_line_number = body_index + 1
+    line_number = body_line_number + line_offset
+    if (fence = line.match(/^\s*(`{3,}|~{3,})/))
+      marker = fence[1]
+      if in_fence.nil?
+        in_fence = marker
+      elsif marker.start_with?(in_fence[0]) && marker.length >= in_fence.length
+        in_fence = nil
+      end
+      next
+    end
+    next if in_fence
+
+    if line.match?(/^\s*\$\$\s*$/)
+      if display_open_line
+        next_line = body_lines[body_index + 1]
+        unless next_line.nil? || next_line.strip.empty?
+          errors << "#{path}:#{line_number}: leave a blank line after a display-math block"
+        end
+        display_open_line = nil
+      else
+        previous_line = body_lines[body_index - 1] if body_index.positive?
+        unless previous_line.nil? || previous_line.strip.empty?
+          errors << "#{path}:#{line_number}: leave a blank line before a display-math block"
+        end
+        display_open_line = line_number
+      end
+      next
+    end
+
+    without_code = line.gsub(/(`+).*?\1/, "")
+    if without_code.match?(/\$\$.*\$\$/)
+      errors << "#{path}:#{line_number}: put display $$ delimiters on separate lines; use $...$ inline"
+    end
+    if without_code.match?(/\\\\[{}]/)
+      errors << "#{path}:#{line_number}: use one TeX backslash before a literal brace"
+    end
+    if without_code.match?(/\{::nomarkdown\}\\\(.*\\\)\{:\/nomarkdown\}/)
+      errors << "#{path}:#{line_number}: formula-level nomarkdown workaround is no longer needed"
+    end
+  end
+  errors << "#{path}:#{display_open_line}: display-math block has no closing $$" if display_open_line
+
+  document = Kramdown::Document.new(body, input: "MathGFM", math_engine: "mathjax")
+
+  each_element(document.root) do |element, inside_raw_html|
+    if element.type == :math && element.value.match?(/\\\\[{}]/)
+      errors << "#{path}:#{element.options[:location] + line_offset}: double-escaped brace inside math"
+    elsif element.type == :text && !inside_raw_html && element.value.include?("$")
+      # Currency is allowed as ordinary text. Other raw dollar signs mean the
+      # inline-math parser did not recognize a delimiter pair.
+      non_currency = element.value.gsub(/\$\d+(?:[,.]\d+)*/, "")
+      if non_currency.include?("$")
+        errors << "#{path}:#{element.options[:location] + line_offset}: unparsed or unbalanced dollar delimiter"
+      end
+    end
+  end
+end
+
+if errors.empty?
+  puts "Math syntax check passed for #{paths.length} Markdown files."
+else
+  warn errors.join("\n")
+  exit 1
+end

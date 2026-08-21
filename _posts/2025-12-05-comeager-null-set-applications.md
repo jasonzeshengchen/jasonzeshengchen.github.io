@@ -25,7 +25,7 @@ There are a number of classic examples[^1] of simple sets of reals that are [:co
 The comeager null set is used in the following lemma:
 > **Lemma.** If $X$ is not meager and has cardinality $\kappa$, then the real line is the union of $\kappa$ many null sets (similarly with null and meager swapped).
 
-*Proof of Lemma.* Let $A$ be a comeager null set. The real line can be covered by sets of the form $\\{x+A \mid x\in X\\}$: for if some $z$ is not in any of these sets, then the comeager set $z-A$ is disjoint from $X$, contradicting the non-meagerness of $X$. 
+*Proof of Lemma.* Let $A$ be a comeager null set. The real line can be covered by sets of the form $\{x+A \mid x\in X\}$: for if some $z$ is not in any of these sets, then the comeager set $z-A$ is disjoint from $X$, contradicting the non-meagerness of $X$.
 
 *Proof of Theorem.* Since the subset of a Luzin (resp. Sierpinski) set is still Luzin (resp. Sierpinski), then there must be such sets of size $\omega_1$. Suppose $L$ is such a Luzin set. By the lemma, since $L$ is non-meager, the real line is the union of $\|L\|=\omega_1$ many null sets $N_\alpha$. It follows that any Sierpinski set must have size at most $\omega_1$, this is because if $S$ is Sierpinski, then it intersects each of those null sets in countably many points, and since $S=\mathbb{R}\cap S = (\bigcup_{\alpha<\omega_1}N_\alpha) \cap S=\bigcup_{\alpha<\omega_1}(N_\alpha \cap S)$, we have $\|S\|\leq \omega_1\cdot \omega = \omega_1$. Similarly for Luzin sets. Thus both have size exactly $\omega_1$, and so the continuum hypothesis holds.
 
