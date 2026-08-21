@@ -144,7 +144,7 @@ $$
 A^+=A\cup B_A
 $$
 
-is a countable $\Sigma^1_2$ set, and since $y_\ast\in B_A\setminus A$,
+is a countable {::nomarkdown}\(\Sigma^1_2\){:/nomarkdown} set, and since {::nomarkdown}\(y_\ast\in B_A\setminus A\){:/nomarkdown},
 
 $$
 A\subsetneq A^+.
