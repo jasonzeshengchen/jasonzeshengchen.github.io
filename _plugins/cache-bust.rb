@@ -21,7 +21,10 @@ module Jekyll
 
             def directory_files_content
                 target_path = File.join(directory, '**', '*')
-                Dir[target_path].map{|f| File.read(f) unless File.directory?(f) }.join
+                source_files = Dir[target_path].reject { |file| File.directory?(file) }.sort
+                raise "Cache-bust source directory is empty or missing: #{directory}" if source_files.empty?
+
+                source_files.map { |file| File.read(file) }.join
             end
 
             def file_content
@@ -43,7 +46,7 @@ module Jekyll
         end
 
         def bust_css_cache(file_name)
-            CacheDigester.new(file_name: file_name, directory: 'assets/_sass').digest!
+            CacheDigester.new(file_name: file_name, directory: '_sass').digest!
         end
     end
 end
