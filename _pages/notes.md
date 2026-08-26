@@ -17,6 +17,7 @@ Here I store some notes. I prepared these notes to help myself understand certai
 
 
 ### Set Theory
+- [Second-Order Constructibility and HOD Without AC](second_order_constructibility_hod_lecture_note.pdf)
 - [Introduction to Inaccessible Cardinals](intro_to_inaccessibility.pdf)
 - [Measurable Cardinals and Elementary Embeddings](Measurable_Cardinal_Elem_Emb.pdf)
 - [Product Forcing, Iterated Forcing, Continuum Coding, and Forcing the Ground Axiom](forcing_ground_axiom.pdf)
@@ -27,4 +28,3 @@ Here I store some notes. I prepared these notes to help myself understand certai
 
 
 ### [Selected Writings in Chinese (部分中文笔记）](/chinese-notes)
-
