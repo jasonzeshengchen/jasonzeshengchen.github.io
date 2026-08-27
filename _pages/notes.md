@@ -6,9 +6,10 @@ nav: true
 nav_order: 5
 ---
 
-Here I store some notes. I prepared these notes to help myself understand certain topics, for presentation at seminars, or recording half-baked research ideas. They have not been checked thoroughly and certainly contain typos and errors to taste. 
+These range from expository to teaching to research notes. They have not been checked thoroughly and certainly contain typos and errors to taste. Consume at your own risk ;)
 
 ### Descriptive Set Theory
+- [Descriptive complexity of roots of measure-preserving transformations](roots_measure_preserving_transformations.pdf)
 - [Perfect set theorems for closed and analytic sets](April_13_2023_Perfect_set_theorems_LPS206.pdf)
 - [Normal forms for $\Sigma^1_1$, Luzin's arithmetic example, and prewellorderings](Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf)
 - [There is no Borel 2-coloring for the irrational rotation graph](no_borel_2_coloring.pdf)
