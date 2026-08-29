@@ -9,7 +9,7 @@ nav_order: 5
 These range from expository to teaching to research notes. They have not been checked thoroughly and certainly contain typos and errors to taste. Consume at your own risk ;)
 
 ### Descriptive Set Theory
-- [Two questions on generic equivalences equivalent to $E_0$ (2026 Tianyuan Mathematical Logic Problem List 8.1 and 8.3)](tianyuan_2026_problem_8.pdf)
+- [Two questions on $E_0$-like generic equivalence (2026 Tianyuan Mathematical Logic Problem List 8.1 and 8.3)](tianyuan_2026_problem_8.pdf)
 - [Descriptive complexity of roots of measure-preserving transformations](roots_measure_preserving_transformations.pdf)
 - [Perfect set theorems for closed and analytic sets](April_13_2023_Perfect_set_theorems_LPS206.pdf)
 - [Normal forms for $\Sigma^1_1$, Luzin's arithmetic example, and prewellorderings](Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf)
