@@ -3,7 +3,7 @@ layout: post
 title: Second-Order Constructibility and HOD Without AC
 date: 2026-08-26
 description: An exposition on Szczepaniak's construction separating second-order constructibility from HOD in ZF
-tags: math set-theory constructibility hod choice
+tags: set-theory constructibility hod choice
 related_posts: false
 giscus_comments: true
 ---

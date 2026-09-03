@@ -122,6 +122,22 @@
             <span class="periodical note">{{ entry.note | strip }}</span>
           {%- endif -%}
         </div>
+        {%- if entry.tags != blank -%}
+          {%- assign publication_tags = entry.tags | split: ',' -%}
+          <div class="publication-tags" aria-label="Publication topics">
+            {%- for publication_tag in publication_tags -%}
+              {%- assign publication_tag_name = publication_tag | strip -%}
+              {%- if publication_tag_name != blank -%}
+                {%- assign publication_tag_slug = publication_tag_name | slugify -%}
+                <a
+                  class="publication-tag"
+                  data-publication-tag="{{ publication_tag_slug }}"
+                  href="{{ '/publications/' | relative_url }}?tag={{ publication_tag_slug | url_encode }}"
+                >#{{ publication_tag_name | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
         </div>
 
           <div class="publication-actions">

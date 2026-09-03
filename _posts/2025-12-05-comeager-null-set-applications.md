@@ -3,7 +3,7 @@ layout: post
 title: Applications of a comeager null set
 date: 2025-12-05
 description: Size of ground model reals, generic reals, and Luzin (and Sierpinski) sets
-tags: math set-theory forcing measure-and-category
+tags: set-theory forcing measure-and-category
 related_posts: false
 ---
 There are a number of classic examples[^1] of simple sets of reals that are [:comeager](#x-comeager) and [:null](#x-null). These examples are usually used to illustrate the orthogonality of measure and category: a set can be large in the measure-theoretic sense but small in Baire-category (i.e., more topological) terms, and vice versa. However I've recently come into a few applications of these sets beyond just intuition-checking.

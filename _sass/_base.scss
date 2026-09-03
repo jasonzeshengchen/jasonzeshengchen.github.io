@@ -384,6 +384,90 @@ footer.sticky-bottom {
   }
 }
 
+// Content filters
+
+.content-filter {
+  background-color: var(--global-code-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0.8rem 0.9rem;
+}
+
+.content-filter-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  margin-bottom: 0.55rem;
+}
+
+.content-filter-label {
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.content-filter-status {
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+}
+
+.content-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.content-filter-option,
+.publications .publication-tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  font-size: 0.7rem;
+  line-height: 1.35;
+  padding: 0.12rem 0.48rem;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  &.is-active {
+    background-color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+}
+
+.content-filter-option {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.58rem;
+}
+
+.content-filter-count {
+  font-size: 0.65rem;
+  margin-left: 0.3rem;
+  opacity: 0.8;
+}
+
+.content-filter[hidden] {
+  display: none !important;
+}
+
+
 // Blog
 
 .header-bar {
@@ -445,6 +529,11 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
+
+      a.is-active {
+        color: var(--global-theme-color);
+        font-weight: 500;
+      }
     }
 
     a {
@@ -460,6 +549,16 @@ footer.sticky-bottom {
       display: unset;
     }
   }
+}
+
+.blog-tag-filter {
+  margin-top: 1.5rem;
+}
+
+.post-list > li[hidden],
+[data-blog-featured][hidden],
+[data-blog-pagination][hidden] {
+  display: none !important;
 }
 
 .pagination {
@@ -539,6 +638,18 @@ footer.sticky-bottom {
 .publications {
   margin-top: 1.5rem;
 
+  .publication-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  h2.bibliography[hidden],
+  ol.bibliography[hidden],
+  ol.bibliography li[hidden] {
+    display: none !important;
+  }
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -575,7 +686,7 @@ footer.sticky-bottom {
       margin: 0;
       padding: 0.65rem 0;
 
-      + li {
+      &:not([hidden]) ~ li:not([hidden]) {
         border-top: 1px solid var(--global-divider-color);
       }
 
@@ -612,6 +723,10 @@ footer.sticky-bottom {
           content: "\00b7";
           margin-right: 0.5rem;
         }
+      }
+
+      .publication-tags {
+        margin-top: 0.4rem;
       }
 
       .title {
