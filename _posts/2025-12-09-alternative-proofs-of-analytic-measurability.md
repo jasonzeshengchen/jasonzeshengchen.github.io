@@ -3,7 +3,7 @@ layout: post
 title: Two Alternative Proofs of Analytic Measurability
 date: 2025-12-09
 description: Proving analytic sets are measurable using recursion theory and forcing
-tags: math set-theory forcing measure-and-category recursion-theory
+tags: set-theory forcing measure-and-category recursion-theory
 related_posts: false
 giscus_comments: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Two exercises that bugged me for a while
 date: 2026-08-19
 description: Two exercises about largest countable definable sets of reals under V=L
-tags: math descriptive-set-theory recursion-theory exercises
+tags: descriptive-set-theory recursion-theory exercises
 related_posts: false
 giscus_comments: true
 ---

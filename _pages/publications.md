@@ -7,8 +7,18 @@ nav: false
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
-<div class="publications">
+<div class="publications" data-publications-list>
+
+<div class="content-filter" data-publication-filter hidden>
+  <div class="content-filter-heading">
+    <span class="content-filter-label">Filter by topic</span>
+    <span class="content-filter-status" data-publication-filter-status role="status" aria-live="polite"></span>
+  </div>
+  <nav class="content-filter-options" data-publication-filter-options aria-label="Filter publications by topic"></nav>
+</div>
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
+
+<script defer src="{{ '/assets/js/publications.js' | relative_url | bust_file_cache }}"></script>
