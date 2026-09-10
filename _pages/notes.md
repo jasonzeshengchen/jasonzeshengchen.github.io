@@ -9,6 +9,7 @@ nav_order: 5
 These range from expository to teaching to research notes. They have not been checked thoroughly and certainly contain typos and errors to taste. Consume at your own risk ;)
 
 ### Descriptive Set Theory
+- [Properness of definable forcing need not be projective](properness_not_projective.pdf) -- Negative consistency result for [Question 2.1.4 in Zapletal's book](https://bookstore.ams.org/memo-167-793)
 - [Absolutely $\Delta^1_2$ sets have constructible generalized Borel codes](absolutely_delta12_borel_codes_note.pdf)
 - [Descriptive complexity  measure-preserving transformations with roots](roots_measure_preserving_transformations.pdf)
 - [Perfect set theorems for closed and analytic sets](April_13_2023_Perfect_set_theorems_LPS206.pdf)
@@ -24,6 +25,7 @@ These range from expository to teaching to research notes. They have not been ch
 
 
 ### Set Theory
+- [Countable ordinal-definable set in Cohen extension to L only contains ordinal-definable elements, uniformly](cohen_countable_od_rewritten_v2.pdf) -- (Entirely by GPT-6. Answers [this MO question](https://mathoverflow.net/questions/244971/cohens-model-yet-again))
 - [Second-Order Constructibility and HOD Without AC](second_order_constructibility_hod_lecture_note.pdf)
 - [Introduction to Inaccessible Cardinals](intro_to_inaccessibility.pdf)
 - [Measurable Cardinals and Elementary Embeddings](Measurable_Cardinal_Elem_Emb.pdf)
