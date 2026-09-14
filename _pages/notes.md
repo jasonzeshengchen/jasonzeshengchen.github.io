@@ -11,7 +11,7 @@ These range from expository to teaching to research notes. They have not been ch
 ### Descriptive Set Theory
 - [Properness of definable forcing need not be projective](properness_not_projective.pdf) -- Negative consistency result for [Question 2.1.4 in Zapletal's book](https://bookstore.ams.org/memo-167-793)
 - [Absolutely $\Delta^1_2$ sets have constructible generalized Borel codes](absolutely_delta12_borel_codes_note.pdf)
-- [Descriptive complexity  measure-preserving transformations with roots](roots_measure_preserving_transformations.pdf)
+- [Descriptive complexity  measure-preserving transformations with roots](integral_roots_measure_preserving_transformations_final.pdf). This mostly relies on a cute trick having to do with non-ergodic MPTs. The ergodic case, which is more interesting, is solved with the help of GPT-5.6. [See this note here](ergodic_root_MPT_complexity.pdf).
 - [Perfect set theorems for closed and analytic sets](April_13_2023_Perfect_set_theorems_LPS206.pdf)
 - [Normal forms for $\Sigma^1_1$, Luzin's arithmetic example, and prewellorderings](Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf)
 - [Mouse capturing phenomena at $\Delta^1_1$ and $\Delta^1_2$](mouse_set_capturing.pdf)
