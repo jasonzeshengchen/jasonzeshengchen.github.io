@@ -11,11 +11,12 @@ These range from expository to teaching to research notes. They have not been ch
 ### Descriptive Set Theory
 - [Properness of definable forcing need not be projective](properness_not_projective.pdf) -- Negative consistency result for [Question 2.1.4 in Zapletal's book](https://bookstore.ams.org/memo-167-793)
 - [Absolutely $\Delta^1_2$ sets have constructible generalized Borel codes](absolutely_delta12_borel_codes_note.pdf)
-- [Descriptive complexity  measure-preserving transformations with roots](integral_roots_measure_preserving_transformations_final.pdf). This mostly relies on a cute trick having to do with non-ergodic MPTs. The ergodic case, which is more interesting, is solved with the help of GPT-5.6. [See this note here](ergodic_root_MPT_complexity.pdf).
+- [Descriptive complexity  measure-preserving transformations with roots](integral_roots_measure_preserving_transformations_final.pdf). -- This mostly relies on a cute trick having to do with non-ergodic MPTs. The ergodic case, which is more interesting, is solved with the help of GPT-5.6. [See this note here](ergodic_root_MPT_complexity.pdf).
 - [Perfect set theorems for closed and analytic sets](April_13_2023_Perfect_set_theorems_LPS206.pdf)
 - [Normal forms for $\Sigma^1_1$, Luzin's arithmetic example, and prewellorderings](Nov_22_2022_Sigma11_normal_form_norms_prewellorderings.pdf)
 - [Mouse capturing phenomena at $\Delta^1_1$ and $\Delta^1_2$](mouse_set_capturing.pdf)
 - [The largest $\Pi^1_1$ thin set as a sharp](largest_thin_set_as_a_sharp.pdf)
+- [Separators of complete coanalytic pairs are complete coanalytic](separators_of_complete_coanalytic_pairs.pdf) -- This is merely a learning exercise for myself, which involves translating known recursion-theoretic proof into more classical descriptive-set-theoretic terms. 
 
 ### Definable Equivalence Relations
 - [Finite-index extensions of essentially free countable Borel equivalence relations](finite_index_essential_freeness.pdf) (*Answers problem 11.4 in Kechris's CBER book*)
@@ -31,9 +32,6 @@ These range from expository to teaching to research notes. They have not been ch
 - [Measurable Cardinals and Elementary Embeddings](Measurable_Cardinal_Elem_Emb.pdf)
 - [Product Forcing, Iterated Forcing, Continuum Coding, and Forcing the Ground Axiom](forcing_ground_axiom.pdf)
 
-### Teaching Materials
-- [Prerequisites on Large Cardinals](Fudan_Summer_2022_Prereq.pdf) (For Fudan Logic Summer School 2022: Large Cardinals beyond Choice) 
-- [Decision tree method for filling out truth tables](LPS30_decision_tree.pdf) (teaching material for intro logic)
 
 
 ### [Selected Writings in Chinese (部分中文笔记）](/chinese-notes)
