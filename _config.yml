@@ -107,7 +107,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zhihu_id: jasonchen0325 # your Zhihu id
 
 contact_note: >
-  If you got here via my social media, thanks! Hopefully this website contains enough info to fulfill your curiosity :)
+  If you got here via my social media, thanks! Hopefully this website contains enough info to fulfill your curiosity :) If you're interested, you can find out more about my industry work at <a href="https://www.linkedin.com/in/jasonzeshengchen/" target="_blank" rel="noopener noreferrer">my LinkedIn</a>.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

@@ -17,7 +17,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-This is the academic homepage of Jason Zesheng Chen. I received a PhD in 2024 from the [Department of Logic and Philosophy of Science](https://www.lps.uci.edu/), UC Irvine, under the supervision of [Toby Meadows](https://sites.google.com/site/tobymeadows/). I now work at [RadixArk](https://www.radixark.com/).
+This is the academic homepage of Jason Zesheng Chen. I received a PhD in 2024 from the [Department of Logic and Philosophy of Science](https://www.lps.uci.edu/), UC Irvine, under the supervision of [Toby Meadows](https://sites.google.com/site/tobymeadows/). I now work at [RadixArk](https://www.radixark.com/). 
 
 My research is best characterized as practice-informed technical philosophy. On a whim I'd also call it ethnography of specialized, technical experts. This means I aim first and foremost to faithfully document the methodologies of technical specialists, in order to discern interesting threads across their actual practices that underlie particular aspects of the trade. Inevitably, this oftentimes entails getting into the technical weeds myself. 
 
