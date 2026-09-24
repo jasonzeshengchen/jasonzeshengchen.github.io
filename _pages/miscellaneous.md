@@ -6,6 +6,8 @@ description: A collection of miscellaneous activities.
 nav: true
 nav_order: 4
 horizontal: false
+display_categories:
+  - teaching
 ---
 
 <!-- pages/miscellaneous.md -->

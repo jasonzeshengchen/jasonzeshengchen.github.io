@@ -4,7 +4,7 @@ title: Large Cardinals Beyond Choice
 description: Fudan Logic Summer School 2022
 img: assets/img/fudan2022.jpg
 importance: 1
-category: logic
+category: teaching
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
 I was the teaching assistant for the 2022 Fudan Logic Summer School on Large Cardinals Beyond Choice. The instructor was Gabriel Goldberg. See Fudan Logic for a [detailed course page](http://logic.fudan.edu.cn/event2022/summer#Lecture2) with notes, videos, and references.
