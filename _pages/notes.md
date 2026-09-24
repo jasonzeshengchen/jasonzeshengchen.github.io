@@ -3,7 +3,7 @@ layout: portfolio
 permalink: /notes/
 title: Notes
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 These range from expository to teaching to research notes. They have not been checked thoroughly and certainly contain typos and errors to taste. Consume at your own risk ;)

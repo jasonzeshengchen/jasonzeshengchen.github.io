@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Teaching
-permalink: /teaching/
-description: A collection of my teaching activities.
+title: Miscellaneous
+permalink: /misc/
+description: A collection of miscellaneous activities.
 nav: true
 nav_order: 4
 horizontal: false
 ---
 
-<!-- pages/teaching.md -->
+<!-- pages/miscellaneous.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -16,7 +16,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {%- assign categorized_projects = site.teaching | where: "category", category -%}
+  {%- assign categorized_projects = site.misc | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
@@ -38,7 +38,7 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.teaching | sort: "importance" -%}
+  {%- assign sorted_projects = site.misc | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">

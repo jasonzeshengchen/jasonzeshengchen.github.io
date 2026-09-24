@@ -176,9 +176,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  teaching:
+  miscellaneous:
     output: true
-    permalink: /teaching/:path/
+    permalink: /misc/:path/
   research:
     output: true
     permalink: /research/:path/
